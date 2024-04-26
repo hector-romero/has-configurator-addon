@@ -13,7 +13,7 @@ RUN \
         py3-pip \
         python3 \
     && pip3 install \
-        hass-configurator=="${CONFIGURATOR_VERSION}" \
+        pip install git+https://github.com/hector-romero/hass-configurator.git@mobile-fixes \
     \
     && find /usr/local \
         \( -type d -a -name test -o -name tests -o -name '__pycache__' \) \
