@@ -1,3 +1,10 @@
+# Configurator Addon (Fork)
+
+Just added the addon setup from https://github.com/home-assistant/addons-example in order to use my own fork
+of the original has-configurator (https://github.com/danielperna84/hass-configurator)
+
+
+
 # Example Home Assistant add-on repository
 
 This repository can be used as a "blueprint" for add-on development to help you get started.
