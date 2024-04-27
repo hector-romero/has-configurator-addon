@@ -12,8 +12,7 @@ RUN \
         openssh-client \
         py3-pip \
         python3 \
-    && pip3 install \
-        pip install git+https://github.com/hector-romero/hass-configurator.git@mobile-fixes \
+    && pip3 install --no-cache-dir git+https://github.com/hector-romero/hass-configurator.git@mobile-fixes \
     \
     && find /usr/local \
         \( -type d -a -name test -o -name tests -o -name '__pycache__' \) \

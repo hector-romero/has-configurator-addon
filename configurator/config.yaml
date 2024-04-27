@@ -1,7 +1,7 @@
 ---
-version: 5.8.0
+version: 5.8.1-fork
 slug: configurator
-name: File editor2
+name: File editor
 description: Simple browser-based file editor for Home Assistant
 url: https://github.com/hector-romero/has-configurator-addon/tree/main/configurator
 codenotary: notary@home-assistant.io
@@ -13,7 +13,7 @@ arch:
   - i386
 homeassistant: 0.91.1
 homeassistant_api: true
-image: homeassistant/{arch}-addon-configurator
+#image: homeassistant/{arch}-addon-configurator
 ingress: true
 init: false
 map:

@@ -5,6 +5,11 @@ build_from:
   armhf: ghcr.io/home-assistant/armhf-base:3.19
   armv7: ghcr.io/home-assistant/armv7-base:3.19
   i386: ghcr.io/home-assistant/i386-base:3.19
+labels:
+  org.opencontainers.image.title: "File Editor"
+  org.opencontainers.image.description: "File Editor - Home Assistant Addon using my own fork"
+  org.opencontainers.image.source: "https://github.com/hector-romero/has-configurator-addon"
+  org.opencontainers.image.licenses: "Apache License 2.0"
 codenotary:
   signer: notary@home-assistant.io
   base_image: notary@home-assistant.io
